@@ -10,7 +10,8 @@ cd smarteyes_scraper
 ```
 
 ```bash
-uv install
+uv venv
+uv pip install -r pyproject.toml
 ```
 
 ## Use
